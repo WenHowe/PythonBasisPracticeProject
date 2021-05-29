@@ -1,4 +1,4 @@
-#*.*--encoding:utf-8
+# coding = utf-8
 # 输入用户年龄
 # age = 23
 age = int(input("请输入年龄： "))
