@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 # coding = utf-8
 # author: wenhowe
 # datetime: 2021/6/6 00:05
@@ -18,19 +19,18 @@ while True:
     action_str = input("请输入您希望执行的操作：")
     # print("您选择的操作是：【%s】" % action_str)
     if action_str in ["1", "2", "3"]:
-        # TODO 新增名片
+        # 新增名片
         if action_str == "1":
             print("您选择的操作是：1. 新增名片")
             cards_tools.add_cards()
-        # TODO 显示名片
+        # 显示名片
         if action_str == "2":
             print("您选择的操作是：2. 显示名片")
             cards_tools.show_cards()
-        # TODO 查询名片
+        # 查询名片
         if action_str == "3":
             print("您选择的操作是：3. 查询名片")
             cards_tools.find_cards()
-        pass
     # 如果用户选择0，则跳出循环并结束程序
     elif action_str == "0":
         print("您选择的操作是：0. 退出系统")
